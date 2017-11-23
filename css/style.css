@@ -1,0 +1,270 @@
+/* --- CSS Reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+[class*=grid] {
+  margin: 0;
+}
+
+.col, [class*=col-] {
+  padding: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+/* --- General Styles --- */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin: 0 1rem 1rem 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fe7c73;
+}
+
+img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.zoompic:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/* --- Header --- */
+header {
+  background-color: white;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .site-logo {
+  padding: 0;
+  text-align: center;
+}
+
+header .site-logo img {
+  width: 30rem;
+}
+
+header nav {
+  text-align: center;
+}
+
+header .site-nav {
+  border-top: 1px solid #0cc0be;
+  border-bottom: 1px solid #0cc0be;
+  padding: 0.8rem 0;
+  margin-bottom: 1rem;
+}
+
+header nav a {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0cc0be;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+}
+
+
+/* --- CALL TO ACTION buttons --- */
+.btn {
+  padding: 0.5rem 1rem;
+  margin: 10px;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-brands {
+  background-color: #03a9f4;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0cc0be;
+  background-color: inherit;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color: #fe7c73;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #0cc0be;
+    border-radius: 5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0cc0be;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #fe7c73;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display:block;
+}
+
+
+
+/* --- Homepage --- */
+
+.intro {
+  margin: auto;
+  width: 80%;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.logo-tile {
+  padding: 2rem;
+}
+
+.main-tile {
+  padding: 0;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.main-tile h2 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.main-content {
+  color: #555;
+  background-color: #5acfce;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.main-blurb {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.main-text {
+  padding: 0 2rem;
+}
+
+.main-image {
+  min-height: 15rem;
+  background-size: cover;
+  background-position: 50% 10%;
+}
+
+@media only screen and (max-width: 64em) {
+  .main-flip {
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-direction: column-reverse; /* Safari 6.1+ */
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
+/* --- Link to ABL website --- */
+
+.abl-blurb {
+  margin: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.abl-link {
+  margin: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.abl-blurb h2 {
+  margin: 1rem;
+}
+
+/* --- Footer ---*/
+
+.footer-copyright {
+  font-size: 0.8rem;
+  padding: 1rem;
+  text-align: center;
+}
