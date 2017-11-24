@@ -86,7 +86,7 @@ header .site-nav {
 }
 
 header nav a {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -113,7 +113,7 @@ header nav a {
 
 /* Dropdown Button */
 .dropbtn {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -150,7 +150,7 @@ header nav a {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -177,12 +177,12 @@ header nav a {
 .intro {
   margin: auto;
   width: 80%;
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
   text-align: center;
   color: white;
   background-color: #0067af;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 10px;
 }
 
@@ -197,7 +197,7 @@ header nav a {
 }
 
 .main-tile h2 {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
   color: #555;
 }
@@ -237,7 +237,7 @@ header nav a {
 
 .abl-blurb {
   margin: 1rem;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   text-align: center;
   color: white;
@@ -248,7 +248,7 @@ header nav a {
 
 .abl-link {
   margin: 1rem;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   text-align: center;
   color: white;
@@ -262,9 +262,33 @@ header nav a {
 }
 
 /* --- Footer ---*/
+footer {
+  padding: 1rem;
+  text-align: left;
+}
+
+footer .nav-link {
+  padding: 1rem;
+}
+
+footer nav a {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #555;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-links {
+  text-transform: capitalize;
+}
 
 .footer-copyright {
-  font-size: 0.8rem;
-  padding: 1rem;
   text-align: center;
+  font-size: 0.7rem;
+  padding: 1rem;
 }
