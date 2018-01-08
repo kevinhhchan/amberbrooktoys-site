@@ -287,13 +287,6 @@ header nav a {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 64em) {
-  .intro-about .intro-thanks {
-
-    width: 80%;
-  
-  }
-
 .about-us-page {
   font-size: 1.2rem;
   color: #0062ab;
@@ -360,6 +353,18 @@ header nav a {
 
 /*--SHOP Page--*/
 
+.intro-shop {
+  margin: auto;
+  width: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
 .shop-section{
   padding: 1rem;
 }
@@ -385,7 +390,7 @@ header nav a {
   padding: 2rem 2rem 1rem 2rem;
   border-radius: 10px;
 }
-
+/*--
 @media only screen and (max-width: 64em) {
   .message-section{
     margin: auto;
@@ -396,7 +401,7 @@ header nav a {
     padding: 1rem;
     border-radius: 10px;
   }
-
+--*/
 .link-block{
   text-align: center;
 }
@@ -477,6 +482,17 @@ form input[type="submit"]:hover {
 }
 
 /*-- 404 page --*/
+.intro-error {
+  margin: auto;
+  width: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1rem;
+  border-radius: 10px;
+}
 
 .error-page {
   font-size: 1.2rem;
