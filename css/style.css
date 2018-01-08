@@ -403,6 +403,17 @@ header nav a {
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 64em) {
+  .message-section{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: #3f51b5;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
 .link-block{
   text-align: center;
 }
