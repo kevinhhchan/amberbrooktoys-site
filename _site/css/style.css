@@ -353,18 +353,6 @@ header nav a {
 
 /*--SHOP Page--*/
 
-.intro-shop {
-  margin: auto;
-  width: 20%;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 0.8rem;
-  text-align: center;
-  color: white;
-  background-color: #0067af;
-  padding: 1rem;
-  border-radius: 10px;
-}
-
 .shop-section{
   padding: 1rem;
 }
@@ -390,18 +378,8 @@ header nav a {
   padding: 2rem 2rem 1rem 2rem;
   border-radius: 10px;
 }
-/*--
-@media only screen and (max-width: 64em) {
-  .message-section{
-    margin: auto;
-    width: 80%;
-    text-align: center;
-    color: white;
-    background-color: #3f51b5;
-    padding: 1rem;
-    border-radius: 10px;
-  }
---*/
+
+
 .link-block{
   text-align: center;
 }
@@ -482,17 +460,6 @@ form input[type="submit"]:hover {
 }
 
 /*-- 404 page --*/
-.intro-error {
-  margin: auto;
-  width: 20%;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.2rem;
-  text-align: center;
-  color: white;
-  background-color: #0067af;
-  padding: 1rem;
-  border-radius: 10px;
-}
 
 .error-page {
   font-size: 1.2rem;
@@ -504,17 +471,6 @@ form input[type="submit"]:hover {
 }
 
 /*-- Thanks Page ---*/
-.intro-thanks {
-  margin: auto;
-  width: 40%;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.2rem;
-  text-align: center;
-  color: white;
-  background-color: #0067af;
-  padding: 0.5rem;
-  border-radius: 10px;
-}
 
 .thanks-page {
   font-size: 1.2rem;
@@ -555,4 +511,33 @@ ul {
   text-align: center;
   font-size: 0.7rem;
   padding: 1rem;
+}
+
+/*--Media Queries--*/
+
+@media only screen and (max-width: 64em) {
+  .intro-about {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: #0067af;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .message-section{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: #3f51b5;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .stores-section{
+    padding: 3rem 2rem;;
+  }
+
 }
