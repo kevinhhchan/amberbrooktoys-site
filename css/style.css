@@ -79,9 +79,9 @@ header nav {
 }
 
 header .site-nav {
-  border-top: 1px solid #0cc0be;
-  border-bottom: 1px solid #0cc0be;
-  padding: 0.8rem 0;
+  border-top: 1px solid #0062ab;
+  border-bottom: 1px solid #0062ab;
+  padding: 0.5rem 0;
   margin-bottom: 1rem;
 }
 
@@ -90,7 +90,7 @@ header nav a {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #0cc0be;
+  color: #0062ab;
   padding: 0.5rem 0.8rem;
   border-radius: 5px;
 }
@@ -107,8 +107,21 @@ header nav a {
   display: inline-block;
 }
 
+.btn-contact {
+  background-color: #00ad48;
+}
+
+.btn-contact:hover {
+  color: #03a9f4;
+  background-color: white;
+}
+
 .btn-brands {
   background-color: #03a9f4;
+}
+
+.btn-brands:hover {
+  background-color: #555;
 }
 
 /* Dropdown Button */
@@ -117,7 +130,7 @@ header nav a {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #0cc0be;
+  color: #0062ab;
   background-color: inherit;
   padding: 0.5rem 0.8rem;
   border: none;
@@ -144,7 +157,7 @@ header nav a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border: 1px solid #0cc0be;
+    border: 1px solid #0062ab;
     border-radius: 5px;
 }
 
@@ -154,7 +167,7 @@ header nav a {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #0cc0be;
+    color: #0062ab;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -169,7 +182,6 @@ header nav a {
 .show {
   display:block;
 }
-
 
 
 /* --- Homepage --- */
@@ -192,7 +204,7 @@ header nav a {
 
 .main-tile {
   padding: 0;
-  margin: 1rem;
+  margin: 1rem 1rem 0.5rem 1rem;
   border-radius: 5px;
 }
 
@@ -261,8 +273,261 @@ header nav a {
   margin: 1rem;
 }
 
+/*--ABOUT Page--*/
+
+.intro-about {
+  margin: auto;
+  width: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.about-us-page {
+  font-size: 1.2rem;
+  color: #0062ab;
+  margin: 0 auto;
+  max-width: 50em;
+  text-align: justify;
+  padding: 2rem 2rem 0 2rem;
+}
+
+/*--BRANDS pages--*/
+.brands-banner h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  color: #03a9f4;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+
+.brands-tile {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  color: #555;
+  background-color: #5acfce;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.brands-tile p{
+  margin: 1rem;
+}
+
+.brands-image {
+  min-height: 15rem;
+  background-size: cover;
+  background-position: 50% 10%;
+  margin: 1rem;
+}
+
+/*--STORE FINDER Page--*/
+
+.intro-stores {
+  margin: auto;
+  width: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.stores-section{
+  color: #0062ab;
+  padding: 3rem 8rem;
+}
+
+.storeslist-tile{
+  padding-bottom: 3rem;
+}
+
+.stores-logo {
+  max-height: 20rem;
+}
+
+.stores-image {
+  min-height: 20rem;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 3rem;
+}
+
+
+/*--SHOP Page--*/
+
+.intro-shop {
+  margin: auto;
+  width: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.shop-section{
+  padding: 1rem;
+}
+
+.shoplist-tile{
+  padding: 1rem;
+}
+
+
+/* CONTACT FORMS */
+
+.contact-section {
+  margin: 1rem;
+}
+
+.message-section{
+  margin: auto;
+  width: 40%;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 10px;
+}
+
+.link-block{
+  text-align: center;
+}
+
+.padded {
+  padding: 1%;
+  margin: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border: 1px solid #555;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 7.5rem;
+}
+
+form label {
+  margin: 1rem 0 0;
+  display: inline-block;
+  color: #0062ab;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form input[type="submit"] {
+  background-color: #00ad48;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+}
+
+form input[type="submit"]:hover {
+  color: white;
+  background-color: #0062ab;
+}
+
+.showroom-details {
+  padding: 1%;
+  margin: 1rem;
+  color: #0062ab;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.map {
+  margin: 1rem;
+}
+
+
+/*-- TERMS --*/
+
+.terms-page{
+  color: #0062ab;
+  margin: 0 auto;
+  max-width: 50em;
+  text-align: justify;
+  padding: 3rem;
+}
+
+.terms-page h2{
+  margin-bottom: 2rem;
+}
+
+.terms-page h3{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/*-- 404 page --*/
+.intro-error {
+  margin: auto;
+  width: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.error-page {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #0062ab;
+  margin: 0 auto;
+  max-width: 70em;
+  padding: 2rem 2rem 0 2rem;
+}
+
+/*-- Thanks Page ---*/
+.intro-thanks {
+  margin: auto;
+  width: 40%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  background-color: #0067af;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.thanks-page {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #0062ab;
+  padding: 1rem;
+  margin: 1rem;
+}
+
 /* --- Footer ---*/
 footer {
+  color: #0062ab;
   padding: 1rem;
   text-align: left;
 }
@@ -275,7 +540,7 @@ footer nav a {
   font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   text-decoration: none;
-  color: #555;
+  color: #0062ab;
   padding: 1rem;
 }
 
