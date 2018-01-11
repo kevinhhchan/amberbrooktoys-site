@@ -1,1 +1,3 @@
 /brands/djeco/ /djeco
+/brands/educational-insights/ /educational-insights
+/brands/learning-resources/ /learning-resources
