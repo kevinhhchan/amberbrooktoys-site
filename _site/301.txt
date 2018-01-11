@@ -1,1 +1,1 @@
-/brands/djeco/ /djeco/
+/brands/djeco/ /djeco
