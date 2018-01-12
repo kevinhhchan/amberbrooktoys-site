@@ -2,3 +2,7 @@
 /brands/educational-insights/ /educational-insights
 /brands/learning-resources/ /learning-resources
 /brands/brainbox/ /brainbox
+/brands/ /index
+/age-groups/ /index
+/categories/ /index
+/open-account/ /contact
